@@ -14,8 +14,8 @@
     self = [super init];
     if (self) {
         
-        NSArray *startVal = @[@1,@2,@8,@15];
-        NSArray *endVal = @[@3,@6,@10,@18];
+        NSArray *startVal = @[@1,@2,@8,@15,@-2];
+        NSArray *endVal = @[@3,@6,@10,@18,@-15];
         
         NSMutableArray *mIntervals = [NSMutableArray arrayWithCapacity:[startVal count]];
         for (int i = 0; i < [startVal count]; i++) {
@@ -49,10 +49,10 @@
     NSMutableArray *resultArray = [NSMutableArray array];
     
     for(Interval *interval in sortedArray){
-        if (interval.start <= end) {
+        if (MIN(interval.start, interval.end) <= end) {
             end = MAX(end, interval.end);
         }else{
-            [resultArray addObject:[[Interval alloc] initWithStart:start withEnd:end]];
+            [resultArray addObject:[[Interval alloc] initWithStart:MIN(start, end) withEnd:MAX(start, end)]];
             start = interval.start;
             end = interval.end;
         }

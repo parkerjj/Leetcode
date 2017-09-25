@@ -11,6 +11,6 @@
 @interface LinkedNode : NSObject
 
 @property (nonatomic) NSInteger value;
-@property (nonatomic,weak) LinkedNode *next;
+@property (nonatomic,strong) LinkedNode *next;
 
 @end

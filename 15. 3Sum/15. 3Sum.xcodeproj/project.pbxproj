@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E356D4721F78F19100E06960 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E356D4711F78F19100E06960 /* main.m */; };
-		E356D47A1F78F19E00E06960 /* Solution.m in Sources */ = {isa = PBXBuildFile; fileRef = E356D4791F78F19E00E06960 /* Solution.m */; };
+		E3D0C4301F78FD5800A1804C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D0C42F1F78FD5800A1804C /* main.m */; };
+		E3D0C4381F78FD6000A1804C /* Solution.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D0C4371F78FD6000A1804C /* Solution.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E356D46C1F78F19100E06960 /* CopyFiles */ = {
+		E3D0C42A1F78FD5800A1804C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E356D46E1F78F19100E06960 /* Add to List 301. Remove Invalid Parentheses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Add to List 301. Remove Invalid Parentheses"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E356D4711F78F19100E06960 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E356D4781F78F19E00E06960 /* Solution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solution.h; sourceTree = "<group>"; };
-		E356D4791F78F19E00E06960 /* Solution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solution.m; sourceTree = "<group>"; };
+		E3D0C42C1F78FD5800A1804C /* 15. 3Sum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15. 3Sum"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D0C42F1F78FD5800A1804C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3D0C4361F78FD6000A1804C /* Solution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Solution.h; sourceTree = "<group>"; };
+		E3D0C4371F78FD6000A1804C /* Solution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solution.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E356D46B1F78F19100E06960 /* Frameworks */ = {
+		E3D0C4291F78FD5800A1804C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,98 +41,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E356D4651F78F19100E06960 = {
+		E3D0C4231F78FD5800A1804C = {
 			isa = PBXGroup;
 			children = (
-				E356D4701F78F19100E06960 /* Add to List 301. Remove Invalid Parentheses */,
-				E356D46F1F78F19100E06960 /* Products */,
+				E3D0C42E1F78FD5800A1804C /* 15. 3Sum */,
+				E3D0C42D1F78FD5800A1804C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E356D46F1F78F19100E06960 /* Products */ = {
+		E3D0C42D1F78FD5800A1804C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E356D46E1F78F19100E06960 /* Add to List 301. Remove Invalid Parentheses */,
+				E3D0C42C1F78FD5800A1804C /* 15. 3Sum */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E356D4701F78F19100E06960 /* Add to List 301. Remove Invalid Parentheses */ = {
+		E3D0C42E1F78FD5800A1804C /* 15. 3Sum */ = {
 			isa = PBXGroup;
 			children = (
-				E356D4711F78F19100E06960 /* main.m */,
-				E356D4781F78F19E00E06960 /* Solution.h */,
-				E356D4791F78F19E00E06960 /* Solution.m */,
+				E3D0C42F1F78FD5800A1804C /* main.m */,
+				E3D0C4361F78FD6000A1804C /* Solution.h */,
+				E3D0C4371F78FD6000A1804C /* Solution.m */,
 			);
-			path = "Add to List 301. Remove Invalid Parentheses";
+			path = "15. 3Sum";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E356D46D1F78F19100E06960 /* Add to List 301. Remove Invalid Parentheses */ = {
+		E3D0C42B1F78FD5800A1804C /* 15. 3Sum */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E356D4751F78F19100E06960 /* Build configuration list for PBXNativeTarget "Add to List 301. Remove Invalid Parentheses" */;
+			buildConfigurationList = E3D0C4331F78FD5800A1804C /* Build configuration list for PBXNativeTarget "15. 3Sum" */;
 			buildPhases = (
-				E356D46A1F78F19100E06960 /* Sources */,
-				E356D46B1F78F19100E06960 /* Frameworks */,
-				E356D46C1F78F19100E06960 /* CopyFiles */,
+				E3D0C4281F78FD5800A1804C /* Sources */,
+				E3D0C4291F78FD5800A1804C /* Frameworks */,
+				E3D0C42A1F78FD5800A1804C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Add to List 301. Remove Invalid Parentheses";
-			productName = "Add to List 301. Remove Invalid Parentheses";
-			productReference = E356D46E1F78F19100E06960 /* Add to List 301. Remove Invalid Parentheses */;
+			name = "15. 3Sum";
+			productName = "15. 3Sum";
+			productReference = E3D0C42C1F78FD5800A1804C /* 15. 3Sum */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E356D4661F78F19100E06960 /* Project object */ = {
+		E3D0C4241F78FD5800A1804C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Leetcode;
 				TargetAttributes = {
-					E356D46D1F78F19100E06960 = {
+					E3D0C42B1F78FD5800A1804C = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = E356D4691F78F19100E06960 /* Build configuration list for PBXProject "Add to List 301. Remove Invalid Parentheses" */;
+			buildConfigurationList = E3D0C4271F78FD5800A1804C /* Build configuration list for PBXProject "15. 3Sum" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = E356D4651F78F19100E06960;
-			productRefGroup = E356D46F1F78F19100E06960 /* Products */;
+			mainGroup = E3D0C4231F78FD5800A1804C;
+			productRefGroup = E3D0C42D1F78FD5800A1804C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E356D46D1F78F19100E06960 /* Add to List 301. Remove Invalid Parentheses */,
+				E3D0C42B1F78FD5800A1804C /* 15. 3Sum */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E356D46A1F78F19100E06960 /* Sources */ = {
+		E3D0C4281F78FD5800A1804C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E356D47A1F78F19E00E06960 /* Solution.m in Sources */,
-				E356D4721F78F19100E06960 /* main.m in Sources */,
+				E3D0C4381F78FD6000A1804C /* Solution.m in Sources */,
+				E3D0C4301F78FD5800A1804C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E356D4731F78F19100E06960 /* Debug */ = {
+		E3D0C4311F78FD5800A1804C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		E356D4741F78F19100E06960 /* Release */ = {
+		E3D0C4321F78FD5800A1804C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +235,7 @@
 			};
 			name = Release;
 		};
-		E356D4761F78F19100E06960 /* Debug */ = {
+		E3D0C4341F78FD5800A1804C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -243,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		E356D4771F78F19100E06960 /* Release */ = {
+		E3D0C4351F78FD5800A1804C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -254,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E356D4691F78F19100E06960 /* Build configuration list for PBXProject "Add to List 301. Remove Invalid Parentheses" */ = {
+		E3D0C4271F78FD5800A1804C /* Build configuration list for PBXProject "15. 3Sum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E356D4731F78F19100E06960 /* Debug */,
-				E356D4741F78F19100E06960 /* Release */,
+				E3D0C4311F78FD5800A1804C /* Debug */,
+				E3D0C4321F78FD5800A1804C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E356D4751F78F19100E06960 /* Build configuration list for PBXNativeTarget "Add to List 301. Remove Invalid Parentheses" */ = {
+		E3D0C4331F78FD5800A1804C /* Build configuration list for PBXNativeTarget "15. 3Sum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E356D4761F78F19100E06960 /* Debug */,
-				E356D4771F78F19100E06960 /* Release */,
+				E3D0C4341F78FD5800A1804C /* Debug */,
+				E3D0C4351F78FD5800A1804C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E356D4661F78F19100E06960 /* Project object */;
+	rootObject = E3D0C4241F78FD5800A1804C /* Project object */;
 }
